@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="shortcut icon" href="img/favicon.png"><title>Propertybull</title><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"><link rel="apple-touch-icon" href="/theme-assets/images/ico/apple-icon-120.png"/><link rel="shortcut icon" type="image/x-icon" href="/theme-assets/images/ico/favicon.ico"/>
+    
+  <script src="https://stage.propertybull.com/js/jquery-3.6.0.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          var currentURL = window.location.href;
+
+          // URL me 'admin' shabd ka upasthiti check karna
+          if (currentURL.includes('admin')) {
+              console.log('admin');
+              // CSS files for 'admin'
+              var adminCSSFiles = [
+                  "https://stage.propertybull.com/theme-assets/css/vendors.css",
+                  "https://stage.propertybull.com/theme-assets/css/app-lite.css",
+                  "https://stage.propertybull.com/theme-assets/css/design.css"
+              ];
+    
+              // Load 'admin' CSS files
+              for (var i = 0; i < adminCSSFiles.length; i++) {
+                  $('head').append('<link rel="stylesheet" type="text/css" href="' + adminCSSFiles[i] + '">');
+              }
+          } else {
+            //  console.log('non admin');
+              // CSS files for non-'admin'
+              var nonAdminCSSFiles = [
+                  "https://stage.propertybull.com/css/bootstrap.min.css",
+                  "https://stage.propertybull.com/css/all.min.css",
+                  "https://stage.propertybull.com/css/owl.carousel.min.css",
+                  "https://stage.propertybull.com/css/owl.theme.default.css",
+                  "https://stage.propertybull.com/css/font.css",
+                  "https://stage.propertybull.com/css/style.css"
+              ];
+
+              // Load non-'admin' CSS files
+              for (var j = 0; j < nonAdminCSSFiles.length; j++) {
+                  $('head').append('<link rel="stylesheet" type="text/css" href="' + nonAdminCSSFiles[j] + '">');
+              }
+          }
+      });
+  </script>
+
+
+
+
+ 
+  <script src="https://stage.propertybull.com//js/bootstrap.bundle.min.js"></script>
+  <script src="https://stage.propertybull.com/js/allscript.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=1b68c4a1-0ca7-49db-97f7-576152a19034"></script>
+  <script defer="defer" src="/static/js/main.dbdf8f0d.js"></script>
+  <link href="/static/css/main.544bf35c.css" rel="stylesheet">
+</head>
+  <body class="vertical-layout vertical-menu 2-columns fixed-navbar changing-menu menu-expanded pace-done"><div id="root"></div></body></html>

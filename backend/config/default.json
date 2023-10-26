@@ -1,0 +1,8 @@
+{
+  "JWT_ACCESS_TOKEN_SECRET": "!@propertyservice@#$%",
+  "ACCESS_TOKEN_EXPIRES_IN": "121221121",
+  "SIGN_OPTION": true,
+  "site_url":"stage.propertybull.com",
+"site_name":"Propertybull.com",
+"admin_username":"contact@propertybull.com"
+}

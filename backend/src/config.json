@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "nodeserver",
+    "password": "nodeserver@123~",
+    "database": "propertybull",  
+    "fileSize": 52428800,
+    "host": "15.206.134.46",
+    "port": 3306,
+    "dialect": "mysql"
+  },    
+  "test": {  
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
